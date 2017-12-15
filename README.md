@@ -1,17 +1,19 @@
 # setup_linux
-Instructions to setup new linux machine
 
-1. sudo apt-get update && sudo apt-get upgrade
-2. sudo apt-get install git
-3. mkdir $HOME/setups
-4. cd $HOME/setups && git clone https://github.com/raacker/setup_vim && cd setup_vim && sudo chmod 700 run.sh && sudo ./run.sh
-5. cd $HOME/setups && git clone https://github.com/raacker/setup_blog && cd setup_blog && sudo chmod 700 run.sh && sudo ./run.sh
-6. cd $HOME/setups && git clone https://github.com/raacker/setup_python && cd setup_python && sudo chmod 700 run.sh && sudo ./run.sh
-7. cd $HOME/setups && git clone https://github.com/raacker/setup_web && cd setup_web && sudo chmod 700 run.sh && sudo ./run.sh
+Automatic development setup for debian/ubuntu linux.
+
+I've been creating setup series to install or setup my develop environment automatically.
+- Setup for Vim and basic command line : https://github.com/raacker/setup_vim 
+- Setup for jekyll blog : https://github.com/raacker/setup_blog 
+- Setup for python development : https://github.com/raacker/setup_python 
+- Setup for web development : https://github.com/raacker/setup_web
+
+And this repo is for setting up linux mint with whole setups.
+
+Feel free to fork and modify them for your custom commands or welcome to PR on this repo.
 
 
-
-
-**Manual installations**
+**Manual installations required**
 1. install jekyll packages of atom
-2. 
+2. set config file from setup_intellij
+3. modify .bashrc to see git branch name on terminal -> check setup_vim

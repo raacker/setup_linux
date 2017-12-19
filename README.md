@@ -17,3 +17,12 @@ Feel free to fork and modify them for your custom commands or welcome to PR on t
 1. install jekyll packages of atom
 2. set config file from setup_intellij
 3. modify .bashrc to see git branch name on terminal -> check setup_vim
+
+
+**Alias list**
+- g11: run g++ with standard c++11
+- runblog: run jekyll with base url /
+- notebook: run jupyter-notebook
+- act-vir: activate virtualenv
+- pycharm: run pycharm.sh
+- pgAdmin4: run pgAdmin4
